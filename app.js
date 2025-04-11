@@ -7,7 +7,7 @@ const cron = require('node-cron'); // Moved cron require up for consistency
 require('dotenv').config();
 
 // --- Configuration ---
-const initialPort = parseInt(process.env.PORT || '3000', 10);
+const initialPort = parseInt(process.env.PORT || '10000', 10);
 const MAX_PORT_ATTEMPTS = 10;
 
 const botToken = process.env.TELEGRAM_BOT_TOKEN;
