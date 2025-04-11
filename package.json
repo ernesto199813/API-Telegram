@@ -1,0 +1,23 @@
+{
+  "name": "api-telegram",
+  "version": "1.0.0",
+  "description": "API para enviar cotizaciones del dólar a Telegram",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "nodemon": "^3.1.9"
+  }
+}
