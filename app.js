@@ -30,7 +30,9 @@ if (!chatId) {
   console.error("   The bot needs a chat ID to send messages.");
   process.exit(1);
 }
-// Keep warning: Optional but recommended
+
+
+// Keep warning: Optional but recommended nnnnnnnnnnnnnnn
 if (!messageThreadId) {
   console.warn("⚠️  Optional: TELEGRAM_MESSAGE_THREAD_ID is not defined. Messages will be sent to the main chat, not a specific topic/thread.");
 }
